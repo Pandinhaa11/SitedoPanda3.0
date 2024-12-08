@@ -1,0 +1,23 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="Site do Panda" description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Hm... parece que não tem aqui!</h1>
+            <p>Sério! Porque desapareceu? Hm... parece que alguém roubou...
+            </p>
+            <p>Se essa página aparecer para você quando você clicar em um dos botões, possa ser que a página não foi implantada ainda. Ou pode ser que foi inplantada mas não foi encontrada.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
