@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://Pandinhaa11.github.io',
+	base: 'SitedoPanda3.0',
 	integrations: [mdx(), sitemap()],
 });
